@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+}
+
+#head{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.headcont{
+    height: 70%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 7fr 1.5fr 1fr 1fr;
+    grid-template-rows: 100%;
+    column-gap: 5px;
+}
+.headcont>div{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+}
+.enac span{
+    color: gray;
+}
+.search{
+    height: 50%;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 13px;
+    margin-right: 3px;
+}
+
+#subhead{
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#565656;
+}
+.subhead{
+    height: 70%;
+    width: 86%;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.subhead>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+}
+#maincont{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincont{
+    height: 85%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    height: 100% ;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lefty{
+    height: 100%;
+    width: 15%;
+    /* border:2px solid red; */
+
+}
+.limg{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+
+}
+.righty{
+   height: 100%;
+   width: 85%;
+   /* border:2px solid red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.righty img{
+    width: 95%;
+}
+.right{
+    height: 100% ;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftu{
+    height: 100%;
+    width: 66%;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+
+}
+.itemname{
+font-size: 18px;
+font-weight: 400;
+}
+.highlights{
+    color: #009C89;
+font-size: 11px;
+font-weight: 400;
+}
+p{
+    line-height: 25px;
+}
+.amch{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+.blk{
+    color: black;
+}
+.box2>.pin{
+    line-height: 15px;
+
+}
+.box2>.pitu{
+    line-height: 35px;
+}
+
+.w2box{
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 10px;
+}
+.tag1{
+    border: 1px solid #AF0000;
+    padding: 7px 10px;
+
+}
+.tag2{
+    padding: 7px 10px;
+    border: 1px solid  #565656;
+}
+
+table{
+    text-align: left;
+   
+}
+table th{
+    padding: 6px;
+}
+table td{
+    padding-left: 30px;
+}
+.rightu{
+    height: 100%;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border:2px solid red; */
+}
+.rightutu{
+    margin-left: 20px;
+    height: 80%;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+
+}
+.sometext span{
+    display: block;
+    padding:4px;
+}
+.red{
+    color: red;
+}
+.cyan{
+    color: rgb(0, 189, 189);
+}
+.dispon{
+    font-weight: 600;
+    font-size: 20px;
+    color: cadetblue;
+}
+button{
+    border-radius: 3px;
+background:  #E0BC00;
+height: 40px;
+width: 150px;
+padding:5px;
+}
+.tab22 table th{
+    padding: 0px;
+    font-size: 12px;
+    color: grey;
+}
